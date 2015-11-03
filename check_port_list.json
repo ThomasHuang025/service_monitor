@@ -1,0 +1,12 @@
+[
+	{
+		"name":"Web",
+		"port":8080,
+		"cmd":"/usr/local/apache2/bin/apachectl start"
+	},
+	{
+		"name":"MySQL",
+		"port":3306,
+		"cmd":"service mysqld start"
+	}
+]
